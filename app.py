@@ -27,7 +27,7 @@ col1, col2 = st.columns([0.15, 0.85])
 with col1:
     st.image("data/robot-assistant.png", width=200)
 with col2:
-    st.markdown("<h1 style='color:#121213; padding-top:40px;'> Bienvenue sur BotPro</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='color: white; padding-top:40px;'> Bienvenue sur BotPro</h1>", unsafe_allow_html=True)
 
 st.markdown("<div class='main-title'> L’assistant virtuel pour les cours des Métiers du commerce et de la vente</div>", unsafe_allow_html=True)
 

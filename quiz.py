@@ -85,4 +85,4 @@ def quiz_section():
             st.rerun()
 
 def jeu_cinq_mots_section():
-    """Section Streamlit pour le
+    """Section Streamlit pour le jeu des cinq mots."""

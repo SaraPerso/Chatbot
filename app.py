@@ -52,7 +52,32 @@ with onglets[3]:
 # Footer
 st.markdown(f"""
 <div style='text-align: center; font-size: 1em; color: white; margin-top: 40px; padding-top: 20px;'>
-    ✨ Crois en toi, révise avec le sourire 😄 !<br>
+    ✨ Crois en toi, révise avec le sourire 😄 et donne le meilleur de toi-même !<br>
+        💪 Bon courage pour tes révisions !<br><br>
+        👉 <a href="https://digipad.app/p/847630/15248ba9144b5" target="_blank" style="color:white; font-weight:bold;">
+        Accède ici à ton Digipad 📚</a><br><br>
     👥 <strong>Nombre total de visiteurs :</strong> {total}
 </div>
 """, unsafe_allow_html=True)
+
+# Signature personnalisée en bas à droite
+st.markdown(
+    """
+    <div style='text-align: right; font-size: 0.9em; color: white; margin-top: 30px;'>
+        Réalisé par <strong>Sarah Ouziel</strong> © 2025
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# 📆 Badge de mise à jour
+from datetime import datetime
+date_maj = datetime.now().strftime("%d/%m/%Y à %Hh%M")
+st.markdown(
+    f"""
+    <div style='text-align: center; font-size: 0.9em; color: white; margin-top: 10px;'>
+        📆 Dernière mise à jour : <strong>{date_maj}</strong>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
